@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Phone, Mail } from "lucide-react"
+import { Facebook, Youtube, Instagram, Phone, Mail } from "lucide-react"
 
 export function Footer() {
   return (
@@ -46,13 +46,13 @@ export function Footer() {
 
               {/* Medsos */}
               <div className="flex items-start gap-3 mt-4 md:mt-0">
-                <a href="#" className="w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-green-700 hover:text-white transition-all">
+                <a href="https://www.facebook.com/profile.php?id=61562167564038&locale=id_ID" className="w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-green-700 hover:text-white transition-all">
                   <Facebook className="w-4 h-4" />
                 </a>
                 <a href="#" className="w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-green-700 hover:text-white transition-all">
-                  <Twitter className="w-4 h-4" />
+                  <Youtube className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-green-700 hover:text-white transition-all">
+                <a href="https://www.instagram.com/misnurulfalahareman/" className="w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-green-700 hover:text-white transition-all">
                   <Instagram className="w-4 h-4" />
                 </a>
               </div>

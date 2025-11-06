@@ -64,9 +64,11 @@ export function Navbar() {
           </button>
 
           {/* Login Button */}
-          <Button className="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-2 rounded-lg hidden md:block">
-            Login
-          </Button>
+          <Link href="/login">
+            <Button className="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-2 rounded-lg hidden md:block">
+              Login
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu */}
