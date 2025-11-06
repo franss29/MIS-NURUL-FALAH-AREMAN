@@ -27,7 +27,7 @@ const newsItems = [
 
 export function NewsCarousel() {
   return (
-    <section className="bg-green-700 py-16">
+    <section className="bg-[#1D8143] py-16">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           Berita Sekolah
@@ -36,7 +36,7 @@ export function NewsCarousel() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {newsItems.map((item) => (
             <div key={item.id}>
-              <div className="rounded-xl overflow-hidden bg-white shadow-md">
+              <div className="overflow-hidden bg-white shadow-md">
                 <div className="relative aspect-square">
                   <Image
                     src={item.image}

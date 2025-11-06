@@ -4,6 +4,7 @@ import { WelcomeSection } from "@/components/wellcomeSection";
 import { NewsCarousel } from "@/components/newsCarosel";
 import { Footer } from "@/components/footer";
 import BrosurSlider from "@/components/brosurSlider";
+import EkskulSlider from "@/components/ekskulSlider";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WelcomeSection/>
       <NewsCarousel/>
       <BrosurSlider/>
+      <EkskulSlider/>
 
 
       <Footer/>

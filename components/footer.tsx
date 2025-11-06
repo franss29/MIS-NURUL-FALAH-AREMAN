@@ -2,7 +2,7 @@ import { Facebook, Twitter, Instagram, Phone, Mail } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-green-800 py-10 md:py-14">
+    <footer className="bg-[#1D8143] py-10 md:py-14">
       <div className="max-w-7xl mx-auto px-6">
         {/* Kotak utama krem */}
         <div className="bg-[#F9FAE5] rounded-3xl p-8 md:p-10 shadow-lg border border-blue-200">
