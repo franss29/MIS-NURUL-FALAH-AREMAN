@@ -8,7 +8,7 @@ import BrosurSlider from "@/components/brosurSlider"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function BeritaPage() {
-  const [selectedImage, setSelectedImage] = useState(null)
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   const beritaData = [
     {
