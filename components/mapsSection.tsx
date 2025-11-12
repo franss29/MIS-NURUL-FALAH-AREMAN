@@ -27,7 +27,7 @@ export function MapsSection() {
         <div className="mt-6 bg-white rounded-lg p-4 shadow text-center">
           <p className="text-gray-800 font-medium leading-relaxed">
             📍 MIS NURUL FALAH AREMAN <br />
-            Jl. Menpor Palsigunung No.24, RT.1/RW.007, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451
+            Jl. Menpor Areman No.24, RT.1/RW.007, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451
           </p>
 
         </div>

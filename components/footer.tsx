@@ -25,7 +25,7 @@ export function Footer() {
                     MIS NURUL FALAH
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed mt-2">
-                    Jl. Menpor Palsigunung No.24, RT.1/ RW.007, Tugu, Kec.
+                    Jl. Menpor Areman No.24, RT.1/ RW.007, Tugu, Kec.
                     Cimanggis, Kota Depok, Jawa Barat 16451
                   </p>
                 </div>
