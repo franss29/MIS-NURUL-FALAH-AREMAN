@@ -8,6 +8,7 @@ import EkskulSlider from "@/components/ekskulSlider";
 import { StudentGrafik } from "@/components/studentGrafik";
 import { MapsSection } from "@/components/mapsSection";
 import AlumniSection from "@/components/alumniSection";
+import { ChatBot } from "@/components/chat-bot";
 
 
 export default function Home() {
@@ -28,6 +29,9 @@ export default function Home() {
       <MapsSection/>
       <AlumniSection/>
       <Footer/>
+      <section id="chat" className="mx-auto max-w-4xl px-4 py-12">
+        <ChatBot />
+      </section>
     </main>
   );
 }
