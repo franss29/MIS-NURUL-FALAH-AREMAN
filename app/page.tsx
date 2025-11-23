@@ -15,13 +15,14 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar/>
-      <section className="bg-green-700 py-12 md:py-16 lg:py-20 relative">
+      <WelcomeSection/>
+      
+      <section className="bg-[#F6FBD9] py-12 md:py-16 lg:py-20 relative">
         <div className="max-w-7xl mx-auto px-6">
           <GalleryGrid />
         </div>  
       </section>
 
-      <WelcomeSection/>
       <NewsCarousel/>
       <BrosurSlider/>
       <EkskulSlider/>
@@ -29,9 +30,6 @@ export default function Home() {
       <MapsSection/>
       <AlumniSection/>
       <Footer/>
-      <section id="chat" className="mx-auto max-w-4xl px-4 py-12">
-        <ChatBot />
-      </section>
     </main>
   );
 }
